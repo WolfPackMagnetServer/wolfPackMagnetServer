@@ -1,0 +1,25 @@
+.searchContainer {
+  padding: 2%;
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+}
+
+.srcInput {
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  transition: 0.5s;
+  outline: none;
+}
+.srcInput:hover {
+  background-color: rgba(128, 0, 128, 0.8);
+  border: 1px solid #fff;
+}
+.srcInput:focus {
+  background-color: rgba(71, 0, 71, 0.8);
+  border: 1px solid #fff;
+}
+.srcBtn:hover {
+  background-color: #470055;
+}

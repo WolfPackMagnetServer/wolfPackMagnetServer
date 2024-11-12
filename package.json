@@ -7,30 +7,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "electron:build": "npm run build && electron-builder",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "vite",
-    "electron": "electron ."
-  },
-  "build": {
-    "appId": "com.wolfpacksearch.app",
-    "productName": "WolfPackSearch",
-    "asarUnpack": "**/*.node",
-    "forceCodeSigning": false,
-    "win": {
-      "sign": false
-    },
-    "directories": {
-      "output": "dist"
-    },
-    "files": [
-      "dist/**/*",
-      "main.js"
-    ]
+    "start": "vite"
   },
   "dependencies": {
-    "@tauri-apps/cli": "^2.0.2",
     "axios": "^1.7.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -40,13 +21,11 @@
     "@types/react": "^18.3.10",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.2",
-    "electron-builder": "^25.1.8",
     "eslint": "^9.11.1",
     "eslint-plugin-react": "^7.37.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.12",
     "globals": "^15.9.0",
-    "vite": "^5.4.8",
-    "electron-prebuilt-compile": "33.0.2"
+    "vite": "^5.4.8"
   }
 }

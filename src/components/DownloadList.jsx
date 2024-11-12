@@ -4,11 +4,11 @@ import SearchDownloads from "./SearchDownloads";
 import styles from "./DownloadList.module.css";
 
 const distributors = {
-  "https://hydralinks.cloud/sources/dodi.json": "DD",
-  "https://hydralinks.cloud/sources/empress.json": "PRESS",
-  "https://hydralinks.cloud/sources/fitgirl.json": "WDB",
+  "https://hydralinks.cloud/sources/dodi.json": "DODI",
+  "https://hydralinks.cloud/sources/empress.json": "EMPRESS",
+  "https://hydralinks.cloud/sources/fitgirl.json": "Fit Girl",
   "https://hydralinks.cloud/sources/gog.json": "GOG",
-  "https://hydralinks.cloud/sources/onlinefix.json": "Fix",
+  "https://hydralinks.cloud/sources/onlinefix.json": "OnlineFix",
 };
 
 const DownloadList = () => {
@@ -152,7 +152,7 @@ const DownloadList = () => {
               rel="noopener noreferrer"
               className={styles.downloadBtn}
             >
-              Acesso
+              Baixar
             </a>
           </div>
         ))}

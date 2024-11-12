@@ -1,3 +1,10 @@
+.loading {
+  position: fixed;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
